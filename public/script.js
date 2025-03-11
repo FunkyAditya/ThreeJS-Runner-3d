@@ -147,6 +147,7 @@ function animate() {
       } else {
         runAction.timeScale = 1.0;
       }
+      
     } else {
       if (idleAction && currentAction !== idleAction) {
         crossFadeTo(idleAction, 0.5);
